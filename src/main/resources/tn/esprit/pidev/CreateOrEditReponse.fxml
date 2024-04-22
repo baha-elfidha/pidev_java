@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="248.0" prefWidth="600.0" styleClass="dark-background" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tn.esprit.pidev.controllers.CreateOrEditReponseController">
+
+    <Label styleClass="label" text="Description:" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0" />
+    <TextArea fx:id="descriptionTextArea" prefHeight="181.0" prefWidth="422.0" styleClass="text-area" AnchorPane.leftAnchor="120.0" AnchorPane.topAnchor="20.0" />
+
+    <Button layoutX="349.0" layoutY="209.0" onAction="#saveReponseAction" prefHeight="25.0" prefWidth="92.0" styleClass="button" text="Save" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="349.0" />
+    <Button layoutX="450.0" layoutY="209.0" onAction="#cancelAction" prefHeight="25.0" prefWidth="92.0" styleClass="button cancel-button" text="Cancel" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="58.0" />
+
+</AnchorPane>
